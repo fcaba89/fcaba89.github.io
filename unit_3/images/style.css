@@ -1,11 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
+
 body {
-	background: yellow;
+	background: #9933ff;
 }
 
-h1,p {
-	color: blue
+h1,h2,h3,ul,p {
+	color: #ffffff
 }
 
 h1 {
-	@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
-}
+	font-family: 'Coming Soon', cursive;
+	} 
+
+
