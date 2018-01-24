@@ -1,13 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Coming+Soon | kavoon);
 
 body {
+	background: #cc99ff;
 	padding-left: 180px
 }
-body {
-	background: #cc99ff;
-}
 
-header,h2,h3,ul,p {
+header,h2,h3,p {
 	color: #ffffff
 }
 
@@ -16,7 +14,7 @@ header,h2,h3 {
 	} 
 
 
- p,ul {
+ p,{
  	font-family: 'Kavoon', cursive;
  	font-size: 100%;
  }
@@ -43,3 +41,5 @@ address {
 	padding-left: 10px;
 	color: #ffffff;
 }
+
+
