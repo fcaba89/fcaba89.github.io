@@ -4,7 +4,7 @@ body {
 	padding-left: 180px
 }
 body {
-	background: #9933ff;
+	background: #cc99ff;
 }
 
 header,h2,h3,ul,p {
@@ -39,5 +39,7 @@ header,h2,h3 {
  }
 
 address {
-	padding-top: 390px;
+	padding-top: 370px;
+	padding-left: 10px;
+	color: #ffffff;
 }
