@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Coming+Soon | kavoon);
 
-
+body {
+	padding-left: 180px
+}
 body {
 	background: #9933ff;
 }
