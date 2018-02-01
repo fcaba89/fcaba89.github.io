@@ -5,7 +5,11 @@
 	<title>Big Dough Doughnut Shop</title>
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
+<style>
+.clearfix {
+    overflow: auto;
+}
+ </style>
 </head>
 
 <body>
@@ -22,7 +26,11 @@
 </div>
 
 	<p>Think different. Doughnuts!</p>
-<img src="images/good-donut.jpg">
+
+<div class="column" id="column2">
+    <img src="images/good-donut.jpg">
+</div>
+
 <p> Are you hungry?
      Do you like sweets?
      If you answered yes, then you're in luck! Welcome to Big Dough Dougnut Shop! We are in the buisness of making that stomach full and sastified 
@@ -30,23 +38,27 @@
 
 <h2>Menu</h2>
 <p>Doughnuts | Custom Doughnuts | Coffee</p>
-<img src="images/menu.jpg" alt="images/12 insane doughnuts">
+
+<div class="column" id="column3">
+    <img src="images/menu.jpg" alt="images/12 insane doughnuts">
+</div>
 
 <h3>Shop</h3>
 <p>Come Get your Swag On!</p>
 <p>Gift Cards | Swag </p>
 
-<div class="image-sized">
+<div class="img-container">
+<section id="two_column" class="clearfix">
 
-<img src="images/swag1.jpg" alt="Cool Looking Swag!" style="width: 300px;height: 300px;">
-
-<img src="images/swag2.jpg" alt="Cool Looking Swag!" style="width: 300px;height: 300px;">
-
-<img src="images/swag3.jpg" alt="Cool Looking Swag!" style="width: 300px;height: 300px;">
-
+    <div class="column" id="column1">
+        <img src="images/swag3.jpg" alt="Cool Looking Swag!">
+    </div>   
+    
+    </section>
 </div>
 
-<footer>We want to hear from you! <a href="mailto:BigDough-DoughnutShop@gmail.com?subject=Blog Feedback">Send us an email.</a></footer>
-
+<div id="footer">
+    <footer>We want to hear from you! <a href="mailto:BigDough-DoughnutShop@gmail.com?subject=Blog Feedback">Send us an email.</a></footer>
+</div>
 
 </body>
