@@ -20,15 +20,15 @@ header,h2,h3 {
  }
 
  header {
- 	height: 200px;
+ 	height: 100px;
  	width: 100px;
- 	padding-top: 5px;
- 	padding-bottom: 100px;
+ 	padding-top: 10px;
+ 	padding-bottom: 150px;
  }
 
  header,h2,h3 {
  	font-weight: bold;
- 	font-size: 200%;
+ 	font-size: 150%;
  }
 
 
@@ -41,7 +41,7 @@ header,h2,h3 {
  }
 
 address {
-	padding-top: 370px;
+	padding-top: 350px;
 	padding-left: 10px;
 	color: #ffffff;
 }
@@ -60,7 +60,7 @@ address {
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 15px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -89,7 +89,6 @@ address {
 	margin-left: auto;
 	margin-right: auto;
  }
-
 
 
 
