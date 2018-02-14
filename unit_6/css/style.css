@@ -2,7 +2,7 @@
 
 body {
 	background: #ffccff;
-	padding-left: 180px
+	padding-left: 10%
 }
 
 header,h2,h3,p {
@@ -20,10 +20,10 @@ header,h2,h3 {
  }
 
  header {
- 	height: 100px;
- 	width: 100px;
- 	padding-top: 10px;
- 	padding-bottom: 150px;
+ 	height: 100%;
+ 	width: 100%;
+ 	padding-top: 10%;
+ 	padding-bottom: 150%;
  }
 
  header,h2,h3 {
@@ -40,28 +40,28 @@ header,h2,h3 {
  }
 
 address {
-	padding-top: 350px;
-	padding-left: 10px;
+	padding-top: 150%;
+	padding-left: 10%;
 	color: #ffffff;
 }
 
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 12%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 2%;
 }
 
 .sidenav a {
-    padding: 15px 8px 6px 16px;
+    padding: 15% 8% 6% 16%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 100%;
     color: #818181;
     display: block;
 }
@@ -71,7 +71,7 @@ address {
 }
 
 .sidenav p {
-	padding-left: 10px;
+	padding-left: 10%;
 	color: #ffffff;
 }
 
