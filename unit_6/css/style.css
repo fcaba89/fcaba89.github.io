@@ -37,7 +37,6 @@ header,h2,h3 {
  	left: 0%;
  	bottom: 0%;
  	text-align: center;
- 	position: absolute;
  }
 
 address {
@@ -96,4 +95,8 @@ img {
 
 div {
 	clear: right;
+}
+
+h2,h3,p {
+	padding-right: 10%;
 }
