@@ -5,6 +5,8 @@ body {
 	padding-left: 10%
 }
 
+h1 {margin: 0;}
+
 header,h2,h3,p {
 	color: #ffffff
 }
@@ -13,17 +15,25 @@ header,h2,h3 {
 	font-family: 'Coming Soon', cursive;
 	} 
 
+nav {
+	background: black;
+	display: none;
+}
 
- p,{
+ p{
  	font-family: 'Kavoon', cursive;
  	font-size: 100%;
+ }
+
+ .label {
+ 	color: black;
+ 	font-weight: bold;
+ 	font-size: 150%;
  }
 
  header {
  	height: 100%;
  	width: 100%;
- 	padding-top: 10%;
- 	padding-bottom: 150%;
  }
 
  header,h2,h3 {
@@ -45,8 +55,11 @@ address {
 	color: #ffffff;
 }
 
+main {
+	padding: 2em;
+}
 
-.sidenav {
+aside {
     height: 100%;
     width: 12%;
     position: fixed;
@@ -58,7 +71,7 @@ address {
     padding-top: 2%;
 }
 
-.sidenav a {
+aside a {
     padding: 15% 8% 6% 16%	;
     text-decoration: none;
     font-size: 100%;
@@ -66,47 +79,73 @@ address {
     display: block;
 }
 
-.sidenav a:hover {
+aside a:hover {
     color: #ff0000;
 }
 
-.sidenav p {
+aside p {
 	padding-left: 10%;
 	color: #ffffff;
 }
 
 #column1 {
-	float: right;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #column2 {
-	float: right;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
  }
 
 img {
-	float: right;
+
+	width: 100%;
 }
 
-div {
-	clear: right;
+section {
+	margin: 2em 0;
 }
 
+.description, .image-container {
+	display: inline-block;
+	width: 48%;
+}
+
+.description {
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 1250px) {
+	body {
+		padding-left: 0;
+	}
+	nav {
+		display: block;
+	}
+
+	aside {
+		display: none;
+	}
+}
 
 @media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  }
+
+body {
+	border: 3px solid red;
+}
+
   aside {
   margin: 0 1.6em .75em 0;
   }
 }
 
-@media only screen and (max-width: 480px) {
-	
+@media only screen and (max-width: 720px)
+{
+	.description, .image-container{
+		display: block;
+		width: 100%;
+	}
 }
