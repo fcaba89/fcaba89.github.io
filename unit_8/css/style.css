@@ -33,7 +33,7 @@ nav {
 
  header {
  	height: 100%;
- 	width: 100%;
+ 	width: 30%
  }
 
  header,h2,h3 {
@@ -57,6 +57,7 @@ address {
 
 main {
 	padding: 2em;
+	width: 60%;
 }
 
 aside {
@@ -106,7 +107,7 @@ img {
 }
 
 section {
-	margin: 2em 0;
+	margin: 12em 0;
 }
 
 .description, .image-container {
@@ -133,10 +134,6 @@ section {
 
 @media only screen and (max-width: 800px) {
 
-body {
-	border: 3px solid red;
-}
-
   aside {
   margin: 0 1.6em .75em 0;
   }
@@ -149,3 +146,5 @@ body {
 		width: 100%;
 	}
 }
+
+
