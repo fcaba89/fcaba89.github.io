@@ -33,7 +33,7 @@ nav {
 
  header {
  	height: 100%;
- 	width: 30%
+ 	width: 50%
  }
 
  header,h2,h3 {
@@ -57,7 +57,6 @@ address {
 
 main {
 	padding: 2em;
-	width: 60%;
 }
 
 aside {
@@ -119,7 +118,7 @@ section {
 	vertical-align: top;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 850px) {
 	body {
 		padding-left: 0;
 	}
