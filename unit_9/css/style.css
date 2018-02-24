@@ -118,7 +118,7 @@ section {
 	vertical-align: top;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 850px) {
 	body {
 		padding-left: 0;
 	}
