@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon | kavoon);
+body {
+  background: #ffccff;
+  padding-left: 10%
+}
+
+h1 {
+  margin: 0;
+}
+
+header, h2, h3, p {
+  color: #ffffff
+}
+
+header, h2, h3 {
+  font-family: 'Coming Soon', cursive;
+}
+
+nav {
+  background: black;
+  display: none;
+}
+
+p {
+  font-family: 'Kavoon', cursive;
+  font-size: 100%;
+}
+
+.label {
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+header {
+  height: 100%;
+  width: 50%
+}
+
+header, h2, h3 {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+footer {
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  text-align: center;
+}
+
+address {
+  padding-top: 150%;
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+main {
+  padding: 2em;
+}
+
+aside {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 2%;
+}
+
+aside a {
+  padding: 15% 8% 6% 16%;
+  text-decoration: none;
+  font-size: 100%;
+  color: #818181;
+  display: block;
+}
+
+aside a:hover {
+  color: #ff0000;
+}
+
+aside p {
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+#column1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#column2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 12em 0;
+}
+
+.description, .image-container {
+  display: inline-block;
+  width: 48%;
+}
+
+.description {
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    padding-left: 0;
+  }
+  nav {
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  aside {
+    margin: 0 1.6em .75em 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .description, .image-container {
+    display: block;
+    width: 100%;
+  }
+}
+
+#top {
+  padding-bottom: 10%;
+}
